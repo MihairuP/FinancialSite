@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    font-family: Montserrat;
+}
+
+.header {
+    text-align: center;
+    height: 83px;
+    color: #eaeaea;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 3;
+    background-color: none;
+}
+
+.nav-link,
+.login-link {
+    color: #eaeaea;
+    height: 22px;
+    text-decoration: none;
+}
+
+.navbar {
+    background: linear-gradient( 180deg, #1a1a1c 7.34%, rgba(26, 26, 28, 0.645747) 46.67%, rgba(26, 26, 28, 0) 91.57%);
+    background-blend-mode: multiply;
+    height: 83px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #aa9261;
+    border-radius: 0;
+}
+
+.studying {
+    height: 37px;
+    width: 138px;
+}
+
+.login {
+    --bs-breadcrumb-divider: "|";
+}
+
+#carouselExampleCaptions {
+    height: 100%;
+}
+
+.slider-img-1 {
+    background-image: url("img/landingSlider01.png");
+}
+
+.image-placeHolder {
+    height: 690px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #1a1a1c;
+}
+
+.carousel-img-1 {
+    background-image: url("img/landingSlider01.png");
+}
+
+.carousel-img-2 {
+    background-color: #0d0c0c;
+    background-image: url("img/landingSlider02.png");
+}
+
+.carousel-img-3 {
+    background-image: url("img/landingSlider03.png");
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(26, 26, 28, 0.4);
+    border: 1px solid #aa9261;
+}
+
+.carousel-indicators .active {
+    background-color: #aa9261;
+}
+
+.carousel-indicators::before,
+.carousel-indicators::after {
+    display: block;
+    height: 0px;
+    width: 88px;
+    background-color: red;
+    border: 1px solid #aa9261;
+    content: "";
+    margin: auto 10px;
+}
+
+.carousel-caption {
+    width: 535px;
+    height: 310px;
+    bottom: 190px;
+    background: rgba(200, 189, 189, 0.2);
+    border-radius: 0px;
+    box-shadow: 0 0 15px rgba(200, 189, 189, 0.4);
+    /* Параметры тени */
+    padding: 30px;
+    text-align: left;
+}
+
+.carousel-caption>h2 {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.carousel-caption>h3 {
+    width: 256px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    text-transform: uppercase;
+}
+
+.carousel-caption>ul>li {
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    text-transform: uppercase;
+}
+
+.carousel-caption>button {
+    height: 37px;
+    font-style: normal;
+    width: 228px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 1px;
+}
