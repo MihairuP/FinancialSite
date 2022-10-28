@@ -3,6 +3,14 @@
     font-family: Montserrat;
 }
 
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
 .header {
     text-align: center;
     height: 83px;
@@ -287,6 +295,30 @@
 
 .prog-pic:hover>.prog-pic-cap {
     opacity: 0;
+}
+
+.footer {
+    background: #c9c9c9;
+    height: 394px;
+    padding: 0 30px;
+}
+
+.footer-caption,
+.footer-caption>*>* {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer-caption-heading {
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #000000 !important;
+    padding-bottom: 25px;
 }
 
 
